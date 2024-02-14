@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+#titulo {
+    color: #333;
+}
+
+#toggleButton{
+    background-color: transparent;
+    border: none;
+    padding: 0; 
+    font-size: larger;
+}
+
+
+
+body.dark-mode {
+    background-color: #333;
+}
+
+body.dark-mode #titulo {
+    color: #fff; 
+}
